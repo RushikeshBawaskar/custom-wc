@@ -19,7 +19,7 @@ def count_lines(file_path):
 
 def ccwc():
     if len(sys.argv) != 3:
-        print("Usage: ccwc [-c:byte count|-l: line count] <filename>")
+        print("Usage: ccwc [-c|-l] <filename>")
         return
     
     option = sys.argv[1]
